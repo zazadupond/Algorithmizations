@@ -8,7 +8,7 @@ public class Task1 {
 
         double k = Math.random() * 100;
         int [] array = new int[(int) k];
-        System.out.println("Вывод Lenght " + array.length);
+        System.out.println("Вывод Lenght Array " + array.length);
 
 
         for (int i = 0; i < array.length ; i ++){
