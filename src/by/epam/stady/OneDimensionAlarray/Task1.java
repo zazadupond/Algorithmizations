@@ -8,6 +8,7 @@ public class Task1 {
 
         double k = Math.random() * 100;
         int [] array = new int[(int) k];
+        int summ = 0;
         System.out.println("Вывод Lenght Array " + array.length);
 
 
@@ -19,9 +20,13 @@ public class Task1 {
 
         for (int i = 0; i < array.length ; i++){
             if ((((int) k % array[i]) == 0)) {
-                System.out.println(array[i]);
+                System.out.println("Число " + array[i] + " кратен " + array.length);
+                summ += array[i];
+
             }
+
         }
+        System.out.println("Сумма элементов кратных данному K. = " + summ);
 
     }
 }
