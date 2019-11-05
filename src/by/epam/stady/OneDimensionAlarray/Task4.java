@@ -6,17 +6,19 @@ package by.epam.stady.OneDimensionAlarray;
 public class Task4 {
     public static void main(String[] args) {
 
-        int n = (int) (1 + Math.random() * 100);
+        int n = (int) (1 + Math.random() * 10);
         int[] array = new int[n];
-        int min = 100;
-        int max = 0;
+
         int minnumber = 0;
         int maxnumber = 0;
 
         for (int i = 0; i < array.length; i++) {
-            array[i] = (int) (1 + Math.random() * 100);
+            array[i] = (int) (1 + Math.random() * 10);
             System.out.println(array[i]);
+
         }
+        int min = array[0] ; // записываем в переменную min значение из первого элемента с массива
+        int max = array[0] ;
 
         for (int i = 0; i < array.length; i++) {
             if (array[i] < min) {
@@ -30,8 +32,8 @@ public class Task4 {
             }
 
         }
-        System.out.println(min + "  " + max);
-        array[minnumber] = max;
+        System.out.println("Min = " + min + " Max = " + max);
+        array[minnumber] = max; // Присваиваем максимальное значение в найденный индекс минимального
         array[maxnumber] = min;
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
