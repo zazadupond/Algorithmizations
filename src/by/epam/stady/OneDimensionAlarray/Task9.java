@@ -6,7 +6,7 @@ public class Task9 {
 
     public static void main(String[] args) {
 
-        int [] arrays = {100, 100, 100, 100, 100, 99, 98, 97, 1, 1,  1, 4, 1, 5, 1};
+        int [] arrays = {100, 100, 100, 1, 1, 1};
         oftenNumMin(arrays);
     }
 
@@ -27,13 +27,13 @@ public class Task9 {
             System.out.println("counts[res] "+ counts[res]);
 
 
-            if (counts[i]==counts[res]) {
-                res = array[res] > array[i] ? i : res;
+            if (counts[i]==counts[res]) { // сравниваем значения переменных по индексу
+                res = array[res] > array[i] ? i : res; // сохраняем наименьшее число
             } else {
                 res = count > counts[res] ? i : res;
             }
         }
-            //return array[res];
+           // return array[res];
         System.out.println("res " + res);
         for (int i = 0; i < array.length; i++){
             System.out.println(array[i]);
