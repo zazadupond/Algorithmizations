@@ -30,7 +30,7 @@ public class Task10 {
             }
         }
         for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
+            System.out.println(array[i]); // получаем массив со всеми не нулевыми элементами слева, с нулями справа
         }
     }
 
