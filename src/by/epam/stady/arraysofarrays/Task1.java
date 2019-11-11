@@ -19,6 +19,7 @@ public class Task1 {
                 if (array[0][j] > array[array.length - 1][j]) {
                     for (int z = 0; z < array.length; z++){
                         System.out.println(array[z][j]);
+
                     }
                 }
             }
