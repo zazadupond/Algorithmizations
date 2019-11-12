@@ -1,19 +1,14 @@
 package by.epam.stady.arraysofarrays;
 
 /* Сформировать квадратную матрицу порядка n по заданному образцу (n- четное)
-* 1  2   3  ... n
-* n n-1 n-2  ...1
-* 1  2   3  ... n
-* n n-1 n-2  ...1
-* .   .  .   ....
-* .   .  .      .
-* n n-1 n-2  ...1 */
+ * 1   1    1  ... 1 1 1
+ * 2   2    2  ... 2 2 0
+ * 3   3    3  ... 3 0 0
+ * .   .   .   ... . . .
+ * n-1 n-1  0  ... 0 0 0
+ * n   0    0  ... 0 0 0 */
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
-public class Task4 {
-
+public class Task5 {
     public static void main(String[] args) {
         int n = 8;
         int[][] array = createMatrixOnTheModel(n, n);
@@ -31,18 +26,12 @@ public class Task4 {
         int[][] array = new int[rows][columns];
 
         for (int i = 0; i < array.length; i++){
-            if (i % 2 == 0) {
-                for (int j = 0; j < array[i].length; j++) {
-                    array[i][j] = j + 1;
-                }
-            } else {
-                for (int z = 0; z < array[i].length; z++) {
-                    array[i][z] = array[i].length - z;
-                }
+
+            for (int j = 0; j < array[i].length - i; j++) {
+                    array[i][j] = i + 1;
             }
         }
 
         return array;
     }
-
 }
