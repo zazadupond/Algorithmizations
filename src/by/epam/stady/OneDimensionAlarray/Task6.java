@@ -15,7 +15,7 @@ public class Task6 {
             double s = Math.sqrt(i);
             for (int j = 2 ; j <= s; j++){
                 if ((i % j) == 0) {
-                    System.out.println("Не простое ");
+                    System.out.println("Не простое " + array[i]);
                     break;
                 } else {
                     summat += array[i];
