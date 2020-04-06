@@ -1,4 +1,4 @@
-package by.epam.stady.arraysofarrays;
+package by.epam.stady.arraysofarray;
 /* Сформировать квадратнубю матрицу порядка n по правилу:
 * A[I ; J] = sin ( (I2 - J2) / N) и подсчитать количество положительных элементов в ней*/
 

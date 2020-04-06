@@ -1,4 +1,4 @@
-package by.epam.stady.OneDimensionAlarray;
+package by.epam.stady.onedimensionalarray;
 
 /* Задана последовательность N вещественных чисел. Вычислить сумму чисел,
 * подядковые номера которых являются простыми числами.*/

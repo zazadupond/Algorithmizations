@@ -1,4 +1,4 @@
-package by.epam.stady.OneDimensionAlarray;
+package by.epam.stady.onedimensionalarray;
 
 /* Даны действительные числа a1, a2, ... , an. Поменять местами
 * наибольший и наименьший элементы.*/

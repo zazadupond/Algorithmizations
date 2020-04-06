@@ -1,4 +1,4 @@
-package by.epam.stady.arraysofarrays;
+package by.epam.stady.arraysofarray;
 
 /* Дана матрица. Вывести на экран все нечетные столбцы,
 * у которых первый элемент больше последнего.*/

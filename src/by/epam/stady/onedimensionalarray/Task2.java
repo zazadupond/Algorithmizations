@@ -1,4 +1,4 @@
-package by.epam.stady.OneDimensionAlarray;
+package by.epam.stady.onedimensionalarray;
 
 /*Дана последовательность действительных чисел a1, a2, ... , an. Заменить
 * все ее члены, большие данного Z, этим числом.

@@ -1,4 +1,4 @@
-package by.epam.stady.OneDimensionAlarray;
+package by.epam.stady.onedimensionalarray;
 
 /* Дан массив действительных чисел, размерность которого N. Посчитать, сколько в нем
 * отрицательных, положительных и нулевых элементов*/

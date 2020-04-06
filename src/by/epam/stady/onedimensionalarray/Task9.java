@@ -1,4 +1,4 @@
-package by.epam.stady.OneDimensionAlarray;
+package by.epam.stady.onedimensionalarray;
 /* В массиве целых чисел с количеством элементов n найти часто встречающееся число.
 * Если таких чисел несколько, то определить наименьшее из них.*/
 

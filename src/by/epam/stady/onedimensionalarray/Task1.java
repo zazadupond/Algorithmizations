@@ -1,4 +1,4 @@
-package by.epam.stady.OneDimensionAlarray;
+package by.epam.stady.onedimensionalarray;
 // В массив A[N] занесены натуральные числа. Найти сумму тех элементов, которые
 // кратны данному K.
 

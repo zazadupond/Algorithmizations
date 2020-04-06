@@ -1,4 +1,4 @@
-package by.epam.stady.OneDimensionAlarray;
+package by.epam.stady.onedimensionalarray;
 /* Дана последовательность целых чисел a1, a2, ... , an. Образовать новую последовательность,
 * выбросив из иcходной те члены, которые равны min(a1, a2, ... , an).*/
 

@@ -1,4 +1,4 @@
-package by.epam.stady.OneDimensionAlarray;
+package by.epam.stady.onedimensionalarray;
 
 /* Даны целые числа a1, a2, ... , an. Вывести на печать только те числа ,
 * для которых ai > i.*/

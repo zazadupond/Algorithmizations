@@ -1,4 +1,4 @@
-package by.epam.stady.arraysofarrays;
+package by.epam.stady.arraysofarray;
 
 public class Task4 {
 

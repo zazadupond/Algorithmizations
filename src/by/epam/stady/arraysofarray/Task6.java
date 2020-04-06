@@ -1,4 +1,4 @@
-package by.epam.stady.arraysofarrays;
+package by.epam.stady.arraysofarray;
 
 /* Сформировать квадратную матрицу порядка n по заданному образцу (n- четное)
  * 1   1    1  ... 1 1 1

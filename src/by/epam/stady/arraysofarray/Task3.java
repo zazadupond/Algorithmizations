@@ -1,4 +1,4 @@
-package by.epam.stady.arraysofarrays;
+package by.epam.stady.arraysofarray;
 
 /* Дана матрица. Вывести k-ю строку и p-й столбец матрицы.*/
 public class Task3 {

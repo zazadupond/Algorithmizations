@@ -1,4 +1,4 @@
-package by.epam.stady.OneDimensionAlarray;
+package by.epam.stady.onedimensionalarray;
 
 /* Дан целочисленный массив с количеством элементов n. Сжать массив, выбросив
 * из него каждый второй элемент ( освободившиеся элементы заполнить нулями).

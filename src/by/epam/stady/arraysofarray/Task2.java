@@ -1,4 +1,4 @@
-package by.epam.stady.arraysofarrays;
+package by.epam.stady.arraysofarray;
 
 /* Дана квадратная матрица. Вывести на экран элементы, стоящие по диагонали.*/
 
